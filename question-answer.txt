@@ -1,0 +1,2 @@
+1. How to check if CSS3 is supported or not in different browsers 
+2. Advanced Git session 

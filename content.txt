@@ -1,0 +1,91 @@
+CSS 3
+-----
+Introduction
+How to add CSS
+selectors
+comments
+colors
+backgrounds
+borders
+Margins
+Paddings
+Text
+Fonts
+Height and Width
+Box Model
+Outline
+Icons
+Links
+Lists
+Tables
+Display
+max-Width
+position
+overflow
+
+Older versions - CSS1, CSS2, CSS2.1 
+
+CSS - Cascading StyleSheet
+ 
+    - Help me to make website look better
+    - Fonts, colors, borders etc...
+
+1. Inline
+2. Internal 
+3. External 
+4. Import
+
+New features
+------------
+1. New Selectors - Better selection of HTML Elements
+2. Shadow Effects - Box shadow, text shadow
+3. Rounded Corners - Round the corners of images and block elements
+4. Gradients
+5. Opacity 
+6. Transitions
+7.Tranformations
+8. Animations 
+9. Flexbox
+10. Multi column layout - Build one dimensional layout
+11. grids - Builds 2d 
+
+CSS3 - is supported in HTML5 based browsers
+      - IE8 and lesser versions doesn't support css3
+      - IE9 supports CSS3 but not fully
+      - IE10, Edge, chrome, firefox, safari 5.1 supports CSS3
+
+CSS 3 - Vendor Specific prefixes
+-----------------------------
+e.g. background-color : yellow 
+
+    -webkit-background-color: yellow
+
+1. -webkit-  : Chrome, firefox, safari
+2. -moz-     : old firefox browser 
+3. -ms-      : For IF9 and above
+4. -o-       : Opera 11 and above 
+
+2. How to Add CSS
+------------------
+1. Inline
+2. Internal
+3. External
+4. Import
+
+3. Selectors
+------------
+
+1. simple selectors - selects elements based on name, id and class
+2. combinator selectors - selects elements based on specific relationship between them
+3. pseduo selectors - Selects elements based on certain state
+4. pseduo elements - set the styles to elements
+5. Attribute selector - select elements based on attribute or attribute value
+
+Advantages of CSS
+------------------
+1. Saves time 
+2. Pages load faster
+3. Easy maintain
+4. Superior style to HTML 
+4. Multiple device compatibility
+5. Global webstandards
