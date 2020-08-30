@@ -77,8 +77,8 @@ e.g. background-color : yellow
 
 1. simple selectors - selects elements based on name, id and class
 2. combinator selectors - selects elements based on specific relationship between them
-3. pseduo selectors - Selects elements based on certain state
-4. pseduo elements - set the styles to elements
+3. pseduo class selectors - Selects elements based on certain state
+4. pseduo element selectors - set the styles to elements
 5. Attribute selector - select elements based on attribute or attribute value
 
 Advantages of CSS
@@ -89,3 +89,130 @@ Advantages of CSS
 4. Superior style to HTML 
 4. Multiple device compatibility
 5. Global webstandards
+
+Selectors
+----------
+1. Combinator selector
+
+    4 different combinators
+
+    1. Descendant Selector (space)
+    2. child selecctor ( > )
+    3. Adjacent sibling selector (+)
+    4. general sibling selector (~)
+
+Descendant Selector (space)
+-------------------
+Matches all elements that are desecandants of a specified element.
+
+Father - daughter 
+Great Grand father - Grand Father - Father - Son 
+
+Child Selector ( >)
+--------------
+Matches all elements that are children of specified element
+
+Adjacent Sibling Selector (+)
+-------------------------
+The Adjacent sibling selector selects all the elements that are 
+adjacent siblings of specified elelemnt
+
+Sibling - Must have the same parent element
+
+adjacent - Immediately following
+
+With adjacent sibling combinator only one element will be styled
+
+General Sibling selector (~) tilde
+-----------------------------------
+The general sibling selector selects all elements that are 
+siblings of a specified element
+
+With the general sibling combinator one or more elelemnts will be styled
+
+
+ pseduo class selectors
+ ----------------------
+ Matches components based on an additional condition 
+
+ allows you to style the dynamic state of en element 
+
+ for e.g Hover, active and foucs
+
+ selector:pseduo-class {
+     porperty: value
+ }
+
+ Pseduo Element Selectors
+ -------------------------
+ Pseduo element sector is used to style specified parts of an element
+
+ for e.g 
+
+ 1. Style the first letter or line of an element
+ 2. Insert the content before or after the content of an element
+
+ Selector::pseduo-element {
+     property: value
+ }
+
+ Note: ::first-line pseudo element can only be applied to block-level elements
+ -----
+
+In CSS2 and CSS1 pseduo class and pseduo elements used to have single colon,
+In CSS3 this has changed and double colon is used for pseduo elements
+
+
+::before 
+---------
+It can be used to insert some content before the content of our element
+
+::after
+-------
+It can be used to insert some content after the content of our element
+
+content
+--------
+Content is a property in CSS which is used to generate the content dynamically.
+It can generate content before and after pseduo element
+
+::selection
+-------------
+It matched the portion of en element selected by the user
+
+color, background-color, cursor and outline can be applied to selection
+
+
+
+Attribute selector
+------------------
+if attribute is target then, it selects all elements with target attribute
+
+a[target] {
+    background-color: yellow     - Selects all a elements with target attribute
+}
+
+[attribute="value"] selector
+----------------------------
+Is used to select elements with a specified attribute and value
+
+
+[attribute ~ ="value"] selector
+-------------------------------
+Is used to select elements with an attribute value containing a specific word
+
+[attribute | ="value"] selector
+-------------------------------
+Is used to select elements with an attribute value containing a specific value
+
+[attribute ^ ="value"] selector
+-------------------------------
+It is sed to select elements whose attribute begins with specified value
+
+[attribute $ ="value"] selector
+-------------------------------
+It is sed to select elements whose attribute ends with specified value
+
+[attribute * ="value"] selector
+-------------------------------
+It is used to select elements whose attribute value contain a specified value
