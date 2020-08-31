@@ -216,3 +216,22 @@ It is sed to select elements whose attribute ends with specified value
 [attribute * ="value"] selector
 -------------------------------
 It is used to select elements whose attribute value contain a specified value
+
+Comments
+----------
+Will help you to comment your code
+
+Syntax : /* Commented code */
+
+Colors
+--------
+Will apply colors to your elements
+
+4 ways to apply colors 
+
+1. color name - red, yellow, blue, orange.. etc
+2. HTML5 color names - coral, teal etc...
+3. Hexadecimal colors - Represented with 6 digit numbers
+4. RGB - RED GREEN BLUE - rgb(23,23,45) or rgb(15%, 35%,45%)
+
+0 to 255
