@@ -6,11 +6,11 @@ selectors
 comments
 colors
 backgrounds
+Fonts
 borders
 Margins
 Paddings
 Text
-Fonts
 Height and Width
 Box Model
 Outline
@@ -235,3 +235,43 @@ Will apply colors to your elements
 4. RGB - RED GREEN BLUE - rgb(23,23,45) or rgb(15%, 35%,45%)
 
 0 to 255
+
+
+Background 
+-----------------
+To Define background effect of an element
+
+1.Background-color
+------------------
+Sets a background color to our elements
+
+2. Background-image
+--------------------
+Sets the background image for your element
+
+repeat-x - rpeats the background-image horizontally
+
+repeat-y = repeats the background-image vertically
+
+Fonts
+-----
+Will help you to set the font properties for our elements
+
+Font-Family - Used to change the face of the font
+Font-style - Property used to make font italic or oblique
+font-variant - used to create small CAPS effect
+font-weight - Help us increase or decrease how bold or light the font appears (for e.g bold)
+font-size -  helps us to increase or decrease the size of the font
+font - Shorthand to specify other font properties
+
+Value	Common weight name
+100	    Thin (Hairline)
+200	    Extra Light (Ultra Light)
+300	    Light
+400	    Normal (Regular)
+500	    Medium
+600	    Semi Bold (Demi Bold)
+700	    Bold
+800	    Extra Bold (Ultra Bold)
+900	    Black (Heavy)
+950	    Extra Black (Ultra Black)

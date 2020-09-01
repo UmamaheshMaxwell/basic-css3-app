@@ -5,3 +5,4 @@
 Coding Questions
 -------------------
 1. What is the difference between DIV and P
+2. Font-size with %
