@@ -253,6 +253,18 @@ repeat-x - rpeats the background-image horizontally
 
 repeat-y = repeats the background-image vertically
 
+3. Background-position 
+-----------------------
+
+It has got 3 different values
+1. length - 100px 50px
+2. percentage - 100% 
+3. Keywords - top right
+
+4. Background attachment  [scroll, fixed, local]
+--------------------------
+This specifies whether background image to should be scrolled or fixed
+
 Fonts
 -----
 Will help you to set the font properties for our elements
@@ -275,3 +287,62 @@ Value	Common weight name
 800	    Extra Bold (Ultra Bold)
 900	    Black (Heavy)
 950	    Extra Black (Ultra Black)
+
+CSS Units
+---------
+1. Absolute Units
+
+ a. pixels (px)
+ b. inches (in)
+ c. centimeters (cm)
+ d. millimeters (mm)
+ e. points (pt)
+ f. picas (pc)
+
+2. Relative Units
+------------------
+
+ a. percentage (%)
+ b. font-sizes ( em & rem)
+ c. charcter-sizes (ex & ch)
+ d. viewport dimensions (vw & vh)
+ e. viewport max (vamx)
+ f. viewport maximum (vmax)
+
+ Relative units are based on
+ -----------------------------
+ 1. The parent dimensions (%)
+ 2. The currently declared font-attributes (em, rem, ex, ch)
+ 3. The viewport dimensions (vh, vw, vmin, vmax)
+
+Viewport - user's visible are of the webpage
+
+Opacity / transparency
+----------------------
+
+This specifies the opacity/ tranparency of an element.
+
+it can value from 0.0 to 1.0
+
+The lower the value the more transparent it becomes
+
+div {
+    opacity : 0.3
+}
+
+When using this all of its child elements inherit the same transparency
+
+Transaprency Using RGBA 
+-----------------------
+If you don't want to apply opacity to child elelements use RGBA color value
+
+RGBA - RedGreenBlueAlpha
+
+background-color - rgba(red, green, blue, alpha)
+
+alpha parameter is a number between 0.0 (fully transparent) to 1.0(fully opaque)
+
+div {
+    background : rgba(0,128,0,0.3);
+}
+

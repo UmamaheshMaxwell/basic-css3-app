@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Background Position</title>
+        <style>
+            div {
+            background-color: #FFEE99;
+            background-repeat: no-repeat;
+            width: 300px;
+            height: 80px;
+            margin-bottom: 12px;
+            }
+
+            .exampleone {
+                background-image: url("https://mdn.mozillademos.org/files/11987/startransparent.gif");
+                background-color:  #FFEE99 ;
+                background-position: 2.5cm bottom;
+                background-repeat:  no-repeat;
+            }
+            .exampletwo {
+                background: url("https://mdn.mozillademos.org/files/11987/startransparent.gif") #FFEE99 left 4em bottom 1em no-repeat;
+           }
+           .examplethree {
+                background-image:    url("https://mdn.mozillademos.org/files/11987/startransparent.gif"), 
+                                    url("https://mdn.mozillademos.org/files/7693/catfront.png");
+                background-position: 0px 0px,
+                                    right 3em bottom 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="exampleone">Example One</div>
+        <div class="exampletwo">Example Two</div>
+        <div class="examplethree">Example Three</div>
+
+    </body>
+</html>
