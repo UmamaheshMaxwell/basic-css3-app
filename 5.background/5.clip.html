@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Background Clip</title>
+    <style>
+        .div-one {
+            border : 10px dotted black;
+            padding: 15px;
+            background: cadetblue;
+            background-clip: border-box;
+        }
+        .div-two {
+            border : 10px dotted black;
+            padding: 15px;
+            background: cadetblue;
+            background-clip: padding-box;
+        }
+        .div-three {
+            border : 10px dotted black;
+            padding: 15px;
+            background: cadetblue;
+            background-clip: content-box;
+        }
+        .display {
+            border : 10px dotted black;
+            padding: 15px;
+            background: cadetblue;
+            background-clip: content-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Clip Property</h1>
+    <p>
+        The background-clip property defines how far the 
+        background should extend with in element
+    </p>
+    <p> Background-clip: border-box ( this is default) </p>
+    <div class="div-one">
+        <p> The background extends behind the border</p>
+    </div>
+
+    <p> Background-clip : padding-box </p>
+    <div class="div-two">
+        <p> The background extneds to the inside edge of the border</p>
+    </div>
+
+    <p>Background-clip: content-box</p>
+    <div class="div-three">
+        <p>The background extends to the edge of the cotent box</p>
+    </div>
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    </p>
+    <br><br>
+    <span class="display"> Uma</span>
+</body>
+</html>

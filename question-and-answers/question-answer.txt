@@ -1,8 +1,14 @@
 1. How to check if CSS3 is supported or not in different browsers 
 2. Advanced Git session 
 3. Custom Psedudo Elements
+4. any performance differences between em and rem ?
 
 Coding Questions
 -------------------
 1. What is the difference between DIV and P
-2. Font-size with %
+2. Font-size with % 
+3. How to reset your CSS ?
+4. offset-x, offset-y, blur-radius
+5. Hidden vs None
+
+

@@ -7,10 +7,12 @@ comments
 colors
 backgrounds
 Fonts
+Opacity
+Units
+Text
 borders
 Margins
 Paddings
-Text
 Height and Width
 Box Model
 Outline
@@ -265,6 +267,10 @@ It has got 3 different values
 --------------------------
 This specifies whether background image to should be scrolled or fixed
 
+5. Background Clip
+-------------------
+This defines how far the background should extend with in element
+
 Fonts
 -----
 Will help you to set the font properties for our elements
@@ -346,3 +352,175 @@ div {
     background : rgba(0,128,0,0.3);
 }
 
+Units
+------
+1. Absolute units
+2. Relative
+
+1. Absolute Units
+-----------------
+1. Pixels (px)
+2. inches (in)
+3. Centimeters (cm)
+4. Millimeters(mm)
+5. points (pt)
+6. picas (pc)
+
+2. Relative Units
+-----------------
+1. Percentage (%)
+2. charcater-sizes(ex & ch)
+3. font-sizes (em & rem)
+4. Viewport dimensions (vh & vw)
+    vh- viewport Height
+    vw -viewport Width
+    viewport - user's visible area
+5. vmin - viewport minimum
+6. vmax - viewport maximum
+
+Relative units are based on :
+-----------------------------
+1. The parent dimensions (%)
+2. Font-attributes (em, rem, ex, ch)
+3. viewport dimensions (vh, vw, vmin, vmax)
+
+ex - Relative to the x-height of the current font (rarely used) 
+
+x-height is roughly the height of lower case letters such a a,b,c,d,m, o...
+
+ch - relative to the width of "0"  1ch == 8px
+
+em - Relative to the font-size of the parent element
+
+rem - relative to the font-size of root element
+
+Note : In amlmost every browser 16px is the standard for font
+-------
+
+user can control the font-size
+
+1rem = 16px
+
+vh - viewport height 
+1vh - is equal to 1% of the current viewport height
+vw - viewport width
+1vw - is equal to 1% of the current viewport width
+vmin - Uses the raito of smallest size. That is if the height of the browser 
+       windows is less than its witdh 1vmin will be equivalent of 1vh. if the
+       width of the browser is less than its height 1vim is equivalent to 1vw
+
+vamx - Uses the ratio of largest size. So if 1vamx is equivalent to 1vw if 
+       viewport is wider than it is tall. if the browser is taller than it 
+       is wide 1max is eqivalent to 1vh
+
+Viewport - user's visible area
+
+
+Absolute Units
+---------------
+The aboluste units are fixed and length expressed in any of these will appears
+exatcly the same size
+
+1. Centimeters (cm) ( 1cm = 37.8 px)
+---------------
+use for "print" media type style sheet 
+
+2. Millimeter (mm) ( 1mm = 0.1cm = 3.78px)
+--------------
+
+---------------------------------------------------------
+1em == 16px == 0.17in == 12pt == 1pc == 4.2 mm ==0.42cm
+---------------------------------------------------------
+
+3. Inches (in)  (1in ==96px ==2.54cm)
+-------------------------------------
+Incjes is same as cenyimeters and will be used for "print" media type style sheet
+
+4. Pixel (px)
+---------------
+It is most usable and considered measure in browsers. Normalizes measure for all 
+devices and display true measure
+
+5. Point (pt) (1pt ==1/72 of in)
+--------------------------------
+point is used for physical measurement - Print Media
+
+6. Picas (pc) (1pc =12pt)
+-------------------------
+
+Picas is same as point 
+
+
+CSS Text
+------------
+Used to manipulate text using CSS properties
+
+1. color - set the color of the text
+2. direction - set the direction of the text
+3. letter-spacing - to add or sutract space between the letter that makes up a word
+4. word-spacing - add or subtract space between the words of a sentence
+5. text-align - aling the text of a document
+6. text-indent - indent the text of a pragraph
+7. text-decoration - to underling, overline  or strike through the text
+8. text-transform - to capitaize the text or convert the text to 
+                    uppercase or lower case letters
+9.  whit-space - to control the flow and format the text
+10. text-shadow - to set the text shadow around the text
+
+
+Border
+--------
+Allows us to specify style, width and color of an element's border
+
+Border-styles
+-------------
+
+Specifies what kind of borders to display
+
+dotted - defined dotted border
+dashed - defines a dashed border
+solid  - defines a solid border
+double - defines a double border
+groove - Defines a 3D grooved border, depends on background color
+ridge  - defines a 3D ridge border, depends on background color
+inset  - defines a 3D inset border, depends on background color
+outset - defines a 3D outset border, depends on background color 
+none   - Defines no border
+hidden - Defined hidden border
+
+Border-style can have one to four values
+ - top border
+ - right border
+ - bottom border
+ - left border
+
+ Border-width ( Will not work without border style)
+ ------------
+ specifies the wodth of our border
+
+- we can specify width using specific size
+- we can use predefined values thin, medium, thick
+- can have one to four values top, right, bottom , left
+
+Border-color
+------------
+is used to set the color of the four borders
+
+Border-Sides
+------------
+used to specify border for each Sides
+
+Border-Shorthand
+-----------------
+To shorten the code , it is possible to specify the individual 
+border properties in one property
+
+border - shorthand for the following individual properties
+
+- border width
+- border style
+- border color
+
+Rounded borders
+---------------
+Border-radius property to add rounded borders to an element
