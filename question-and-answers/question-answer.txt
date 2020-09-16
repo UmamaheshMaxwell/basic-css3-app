@@ -2,6 +2,8 @@
 2. Advanced Git session 
 3. Custom Psedudo Elements
 4. any performance differences between em and rem ?
+5. Why right moves to more left rathar than right in position relative ?
+6. Override the specificity in CSS
 
 Coding Questions
 -------------------
@@ -10,5 +12,32 @@ Coding Questions
 3. How to reset your CSS ?
 4. offset-x, offset-y, blur-radius
 5. Hidden vs None
+6. Z-index, custom fonts, accordian slider with vertical text
 
 
+CSS happens to concitently apply CSS throughout the website
+
+style1.CSS
+p {
+    margin : 10px
+}
+
+style2.css
+p {
+    margin:5px
+}
+
+Universal Selector (*)
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+
+
+#reset-this-parent {
+  all: initial;
+  * {
+    all: unset;
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Float</title>
+   <style>
+       #divParent {
+           border: 2px solid black;;
+       }
+
+       #div1 {
+           width: 100px;
+           height: 100px;
+           background-color: red;
+           float: left;
+       }
+       #div2 {
+           width: 100px;
+           height: 100px;
+           background-color: #00FF00;
+           float: left;
+       }
+       #div3 {
+           width: 100px;
+           height: 100px;
+           background-color: #0000FF;
+           float: left;
+       }
+
+       
+          .clear-left::after {
+           content: " ";
+           display: block;
+           clear: left;
+
+       }
+
+       /* .clear-right::after {
+           content: " ";
+           display: block;
+           clear: right;
+       } */
+
+   </style>
+</head>
+<body>
+
+    <h1>Float</h1>
+    <div id="divParent" class="clear-left">
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Radial Gradient</title>
+  <style>
+      .box1 {
+          height: 200px;
+          width: 300px;
+          background-color: red;
+          background-image: radial-gradient(red, yellow, green);
+      }
+      .box2 {
+          height: 200px;
+          width: 300px;
+          background-color: red;
+          background-image: radial-gradient( red 5%, yellow 15%, green 60%);
+      }
+      .box3{
+          height: 200px;
+          width: 300px;
+          background-color: red;
+          background-image: radial-gradient(circle, red 5%, yellow 15%, green 60%);
+      }
+      .box4{
+          height: 200px;
+          width: 300px;
+          background-color: red;
+          background-image: repeating-radial-gradient(circle at center, red 1%, yellow 10%, green 15%);
+      }
+  </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <br><br>
+    <div class="box2"></div>
+    <br><br>
+    <div class="box3"></div>
+    <br><br>
+    <div class="box4"></div>
+    <br><br>
+    <button>Submit</button>
+</body>
+</html>

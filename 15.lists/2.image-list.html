@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image List</title>
+  <style>
+      ul {
+          list-style-image: url("/images/dolphin.png");
+      }
+
+      ul  > li.one, ol  > li.one {
+        list-style-image: url("/images/starfish.png");
+      }
+      ul > li.two, ol  > li.two {
+        list-style-image: url("/images/dolphin.png");
+      }
+      ul > li.three, ol  > li.three {
+        list-style-image: url("/images/whale.png");
+      }
+
+
+  </style>
+</head>
+<body>
+    <ul>
+        <li>Angular</li>
+        <li>NodeJS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <ul>
+        <li class="one">Starfish</li>
+        <li class="two">Doliphin</li>
+        <li class="three">Whale</li>
+    </ul>
+
+    <ol>
+        <li class="one">Starfish</li>
+        <li class="two">Doliphin</li>
+        <li class="three">Whale</li>
+    </ol>
+</body>
+</html>
