@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>skewX</title>
+ <style>
+     div {
+         margin: 25px;
+         width: 300px;
+         height: 100px;
+         background-color: red;
+         border: 1px solid black;
+     }
+
+     .box1 {
+        transition: width 3s, height 3s,  transform 2s;
+        transform: rotate(20deg);
+        
+     }
+
+     .box1:hover {
+         width: 300px;
+         height: 300px;
+         transform:skewX(20deg);
+     }
+     .box2 {
+        transform:skewX(40deg);
+     }
+     .box3 {
+        transform:skewX(60deg);
+     }
+     .box4 {
+        transform:skewX(70deg);
+     }
+
+ </style>
+</head>
+<body>
+    <h1>skewX</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <div>
+        This is first div
+    </div> <br><br>
+     <div class="box1">
+        This is skewX div1
+    </div><br><br>
+   <!-- <div class="box2">
+        This is skewX div2
+    </div><br><br>
+    <div class="box3">
+        This is skewX div3
+    </div><br><br>
+    <div class="box4">
+        This is skewX div4
+    </div> -->
+</body>
+</html>

@@ -893,3 +893,38 @@ ease - specifies a transition effect with a slow start then moves fast
 ease-in - specifies tarnsition effect with slow start
 ease-out - specifies tarnsition effect with slow end
 ease-in-out - specifies tarnsition effect with slow start and end slow
+
+Transformations
+---------------
+Allows us to move, rotate, scale and skew elelemnts
+
+transform - is the property
+
+2d Transofrmation methods
+
+1.transalate() - moves an element from its current postion (according to X and Y axis)
+2. rotate() - rotate your elelemnt based on angle
+3. scaleX() - Increases or decreases the size of an elelemnt ( as per width)
+4. scaleY() - Increases or decreases the size of an elelemnt ( as per height)
+5. sclae() - Increases or decreases the size of an elelemnt ( as per width and height)
+6. skewX() - skews an elelent along the X axis nd Y axis
+7. skewY() - skews an elelent along the X axis
+8. skew()  - skews an elelent along the Y axis
+9. matrix - combines all the 2D transformations into one
+
+matrix (scaleX(), skewY(), skewX(), scaleY(), tranasalateX(), transalateY())
+
+position:absolte vs transform
+-----------------------------
+Position :absolute : element is placed according to its parent element.
+                     changes according to its parent position
+                
+transform : This is based on itself. if the object is moved it will transalate according to new position
+
+
+3D Transformations (transform use X, Y, Z)
+------------------------------------------
+
+rotateX - rotate an elelemnt aroudn X-axis at a given degree
+rotateY - rotate an elelemnt aroudn Y-axis at a given degree
+rotateX - rotate an elelemnt aroudn Z-axis at a given degree

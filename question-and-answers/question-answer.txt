@@ -4,6 +4,7 @@
 4. any performance differences between em and rem ?
 5. Why right moves to more left rathar than right in position relative ?
 6. Override the specificity in CSS
+7. why scale x and Y when we have scale
 
 Coding Questions
 -------------------

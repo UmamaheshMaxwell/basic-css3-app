@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+  <title>Transalate</title>
+  <style>
+
+      div {
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          border: 1px solid black;
+         
+      }
+
+      .one:hover {
+          width: 300px;
+          height: 300px;
+          transition: width 3s, height 3s,  transform 2s;
+        transform: rotate(120deg);
+      }
+      .two:hover {
+          width: 300px;
+          height: 300px;
+          transition: transform 2s;
+        transform: rotate(120deg);
+      }
+      .three:hover {
+          width: 300px;
+          height: 300px;
+          transition:width 3s, height 3s,  transform 2s;
+          transform: rotate(-120deg);
+      }
+  </style>
+</head>
+<body>
+    <h1>Rotate</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div>This is normal div</div> <br>
+    <div class="one">
+        This is first div
+    </div>
+    <br>
+    <div class="two">
+        This is second div
+    </div><br>
+    <div class="three">
+        This is third div
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>

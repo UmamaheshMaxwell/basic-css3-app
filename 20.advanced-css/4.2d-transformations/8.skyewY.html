@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>skewY</title>
+ <style>
+     div {
+         margin: 25px;
+         width: 300px;
+         height: 100px;
+         background-color: red;
+         border: 1px solid black;
+     }
+
+     .box1 {
+        transition: width 3s, height 3s,  transform 2s;
+        transform: rotate(20deg);
+        
+     }
+
+     .box1:hover {
+         width: 300px;
+         height: 300px;
+         transform:skewY(20deg);
+     }
+     .box2 {
+        transform:skewY(30deg);
+     }
+     .box3 {
+        transform:skewY(40deg);
+     }
+     .box4 {
+        transform:skewY(50deg);
+     }
+
+ </style>
+</head>
+<body>
+    <h1>skewY</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <div>
+        This is first div
+    </div> <br><br>
+    <div class="box1">
+        This is skewY div1
+    </div><br><br>
+    <!-- <div class="box2">
+        This is skewY div2
+    </div><br><br>
+    <div class="box3">
+        This is skewY div3
+    </div><br><br>
+    <div class="box4">
+        This is skewY div4
+    </div> -->
+</body>
+</html>
