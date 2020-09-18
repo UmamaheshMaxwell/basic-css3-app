@@ -25,6 +25,8 @@ position
 overflow
 Specificity
 Box Model
+variables
+media queries
 
 
 Older versions - CSS1, CSS2, CSS2.1 
@@ -928,3 +930,74 @@ transform : This is based on itself. if the object is moved it will transalate a
 rotateX - rotate an elelemnt aroudn X-axis at a given degree
 rotateY - rotate an elelemnt aroudn Y-axis at a given degree
 rotateX - rotate an elelemnt aroudn Z-axis at a given degree
+
+
+CSS Variables ( custom properties)
+--------------
+Gives us the mechanism to reuse and easily change the repeatedly occuring CSS properties
+
+To declare CSS variable we will have to use double dash before the name of the variable
+
+body {
+    --english-green-color : #00FF00
+}
+
+in order to use that variable we can use var() function
+
+    .my-green-component {
+        background-color : var(--english-green-color)
+    }
+The easiest wat to manage our css variables is by declaring them into :root psedo calss.
+
+Havimg them im the :root will ensure tha all selectors will gain access to these variables
+
+:root {
+    --english-green-color : #00FF00
+}
+
+:root 
+----------
+Pseudo Class matches the root elelement of the tree representing the document.
+
+in HTML :root represents the <html> elelemnt and is identical to selector html 
+
+complex websites have very large amounts of CSS and often with lot of repeated values
+
+Custom properties allows a value to be stored in one place then referenced in 
+multiple other places
+
+An Additional benifit is semantic identifiers
+
+for e.g. --main-text-color this is easier to understand than #00FF00
+
+
+
+Shorcuts to generate HTML
+------------------------
+div>p - creates DIV element and p as a child element of div
+
+div>p>span - creates DIV element and p as a child element div 
+             and span as child element of p
+
+div.one - this would create div element with class property
+
+div#id - this would create div with id property
+
+!+tab key - that will fetch html template
+
+doc+tab key - this will fetch html template
+
+lorem8 - will generate lorum ipsum content with 8 words 
+
+lorem50 - will generate lorum ipsum content with 50 words 
+
+Media queries
+-------------
+Allows us to customize the presentation of our web pages for a specific range of
+devices like mobile phones, tablets, desktops etc... without any change in the markup
+
+media query is a logical expression can be resolve to true or false
+
+media query will be true if the media type specified in the media query matches 
+the type of device in which html content being diplayed on.
+

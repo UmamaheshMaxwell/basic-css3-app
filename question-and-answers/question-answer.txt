@@ -6,6 +6,7 @@
 6. Override the specificity in CSS
 7. why scale x and Y when we have scale
 
+
 Coding Questions
 -------------------
 1. What is the difference between DIV and P
@@ -14,6 +15,7 @@ Coding Questions
 4. offset-x, offset-y, blur-radius
 5. Hidden vs None
 6. Z-index, custom fonts, accordian slider with vertical text
+7. Adding !important to CSS variables
 
 
 CSS happens to concitently apply CSS throughout the website
