@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Custom fonts</title>
+  <style>
+      @import url("../home.css");
+      @import url("../styles.css");
+      @font-face {
+          font-family: uma-font;
+          src: url("/fonts/Grandstander-Italic-VariableFont_wght.ttf"),
+               url("/fonts/Tangerine-Bold.ttf"),
+               url("/fonts/Tangerine-Regular.ttf")
+      }
+
+      .custom {
+          font-family: uma-font, Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 48px;
+          text-shadow: 4px 4px 4px #666;
+      }
+  </style>
+</head>
+<body>
+    <div class="custom">
+        Making the web beautiful
+    </div>
+</body>
+</html>

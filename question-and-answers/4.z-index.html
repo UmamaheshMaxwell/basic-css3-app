@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Z-Index</title>
+   <style>
+        .two, .three, .four {
+           height: 100px;
+           width: 100px;
+           position: absolute; top:0px;
+       }
+
+       .one {
+            height: 100px;
+           width: 100px;
+           z-index: 4
+       }
+
+       .one {background-color: red;}
+       .two {background-color:#00FF00; left: 20px; z-index: -1}
+       .three {background-color: blue;  left:35px; z-index: -1}
+       .four {background-color: yellow; left:50px; z-index: -1}
+   </style>
+</head>
+<body>
+    <div class="one">one</div>
+    <div class="two">two</div>
+    <div class="three">three</div>
+    <div class="four">four</div>
+</body>
+</html>

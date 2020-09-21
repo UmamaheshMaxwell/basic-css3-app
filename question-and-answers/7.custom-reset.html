@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>CSS Reset</title>
+   <style>
+       body {
+           display: grid;
+           font-size: 3rem;
+           min-height: 100vh;
+           place-content: center;
+       }
+
+       @font-face {
+          font-family: uma-font;
+          src: url("/fonts/Tangerine-Regular.ttf")
+      }
+
+      .custom {
+          font-family: uma-font, Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 48px;
+          text-shadow: 4px 4px 4px #666;
+      }
+
+       /* all - Every single possible property of this button */
+       /* Font-Size - defaul is inherit, so it inherti's from parent*/
+       .custom {
+            all:unset;
+            padding: .5em 1.25em;
+            background-color: steelblue;
+            color: white;
+            font-family: uma-font;
+            transition: transform ease-in-out 250ms;
+       }
+
+       button:hover {
+           transform: scale(1.25);
+
+       }
+   </style>
+</head>
+<body>
+    <button class="custom">I am button</button>
+</body>
+</html>

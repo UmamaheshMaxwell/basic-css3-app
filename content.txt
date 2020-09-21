@@ -1001,3 +1001,19 @@ media query is a logical expression can be resolve to true or false
 media query will be true if the media type specified in the media query matches 
 the type of device in which html content being diplayed on.
 
+Z-Index
+-------
+Property specifies stack order of an element
+
+1. An elelemnt with greater stack order is always in front of an element
+   with lower stack order
+
+2. Only works with positioned elements
+
+ positions : absolute, relative, fixed, sticky
+
+3. It can have negative values
+
+4. it can't have decimal values
+
+

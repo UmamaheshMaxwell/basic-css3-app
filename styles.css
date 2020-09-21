@@ -1,4 +1,6 @@
-@import url("/home.css");
+body {
+    background-color: yellowgreen;
+}
 
 h1 {
     color: red;
